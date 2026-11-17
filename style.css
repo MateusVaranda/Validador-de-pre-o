@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #151515;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+
+
+
+
+/* ÁREA DE VALIDAÇÃO */
+
+.validate {
+    background-color: #F5F3EE;
+    color: #222222;
+    width: 100%;
+    max-width: 430px;
+    padding: 35px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.validate h1 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    height: 45px;
+    padding: 0 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+form input:focus {  /* Quando eu clicar no meu input, terei um foco nele com essa cor. */
+    border-color: #B99A5B;
+}
+
+form button {
+    margin-top: 15px;
+    height: 48px;
+    background-color: #B99A5B;
+    color: #151515;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #A58648;
+}
+
+
+
+
+/* ÁREA DE RESULTADO */
+
+.result {
+    background-color: #F5F3EE;
+    color: #222222;
+    width: 100%;
+    max-width: 430px;
+    padding: 35px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+.result h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.result p {
+    font-size: 15px;
+    padding: 12px;
+
+    background-color: #EAE7DF;
+    border-radius: 6px;
+}
+
+
+
+
+
+/* RESULTADO APROVADO */
+
+.approved {
+    background-color: #D1FAE5 !important;
+    color: #166534;
+    font-weight: bold;
+}
+
+
+
+/* RESULTADO REPROVADO */
+
+.rejected {
+    background-color: #FEE2E2 !important;
+    color: #991B1B;
+    font-weight: bold;
+}
+
+
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 750px) {
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .validate,
+    .result {
+        max-width: 500px;
+    }
+
+}
+
+
+/* Chrome, Edge e Safari */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
