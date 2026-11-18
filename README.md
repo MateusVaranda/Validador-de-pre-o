@@ -1,8 +1,11 @@
+
 # 💰 Validador de Financiamento
 
-\<p align="center">   Aplicação web desenvolvida para simulação e validação de financiamento, utilizando HTML5, CSS3 e JavaScript. \</p>
+Aplicação web desenvolvida para simulação e validação de financiamento, utilizando HTML5, CSS3 e JavaScript.
 
-\<p align="center">   \<img src="[https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)" />   \<img src="[https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)" />   \<img src="[https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)" /> \</p>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ---
 
@@ -24,16 +27,15 @@ O projeto foi desenvolvido com o objetivo de praticar lógica de programação, 
 
 ## 🛠️ Tecnologias Utilizadas
 
-| Tecnologia | Aplicação no projeto                            |
-| ---------- | ----------------------------------------------- |
-| HTML5      | Estruturação semântica da página e formulários. |
-| CSS3       | Estilização, Flexbox e responsividade.          |
-| JavaScript | Lógica de programação, cálculos e validações.   |
+| Tecnologia | Aplicação no projeto |
+|---|---|
+| HTML5 | Estruturação semântica da página e formulários. |
+| CSS3 | Estilização, Flexbox e responsividade. |
+| JavaScript | Lógica de programação, cálculos e validações. |
 
 ## 🧠 Conhecimentos Aplicados
 
 ### JavaScript
-
 - Declaração de variáveis com `const`.
 - Conversão de valores com `Number()`.
 - Manipulação do DOM com `getElementById()`.
@@ -46,14 +48,12 @@ O projeto foi desenvolvido com o objetivo de praticar lógica de programação, 
 - Controle de visibilidade com `hidden`.
 
 ### HTML5
-
 - Estruturação semântica com `main` e `section`.
 - Criação de formulários com `form`.
 - Utilização de `label`, `input` e `button`.
-- Identificação e integração dos elementos com JavaScript.
+- Integração dos elementos HTML com JavaScript.
 
 ### CSS3
-
 - Organização de layouts com Flexbox.
 - Estilização de campos e botões.
 - Pseudo-classes `:focus` e `:hover`.
@@ -64,7 +64,8 @@ O projeto foi desenvolvido com o objetivo de praticar lógica de programação, 
 
 Consolidar conhecimentos fundamentais de desenvolvimento Front-End, aplicando conceitos de HTML, CSS e JavaScript na construção de uma aplicação funcional e interativa.
 
+---
 
-\<p align="center">
-&#x20; Desenvolvido com dedicação durante meus estudos em Desenvolvimento Web. 🚀
-\</p>
+<p align="center">
+  Desenvolvido com dedicação durante meus estudos em Desenvolvimento Web. 🚀
+</p>
